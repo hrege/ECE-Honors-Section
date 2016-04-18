@@ -10,7 +10,7 @@
 *****************************************/
  
 /* 
-  Instructions:
+  Set up Instructions:
  
   1. Create a Temboo account: http://www.temboo.com
 
@@ -51,20 +51,17 @@
 */
 
 /*
-Refresh token!!!
-
-  1/PwIoYj30nBvqI4P51Ytm_IrK87ozcqiPsRMvC6aSMFI
+  How to Write to spreadsheet in main:
   
-client ID
-
-  519952599202-5iiasmonqbvjtll2c7kvcqktd4339o52.apps.googleusercontent.com
-
-
-client secret
-
-  EOPADqOGekOpl5Jyo6YVIzH2
-
+  In the main file in this project make sure that initWiFi(); is called in the setup() function.
+ 
+  When you want to write to your spreadsheet simply call add_line_to_sheet(ROW_DATA); 
+  ROW_DATA is a string that contains a list of items separated by commas. Each item will be placed in 
+  the coresponding column in the spreadsheet (the first row of ever column must be filled in with a column header). 
 */
+
+
+
 
 #include <SPI.h>
 #include <WiFi.h>
@@ -80,20 +77,19 @@ client secret
 // use #define statements to specify these values in a .h file.
 
 // the clientID found in Google's Developer Console under APIs & Auth > Credentials
-const String CLIENT_ID = "519952599202-5iiasmonqbvjtll2c7kvcqktd4339o52.apps.googleusercontent.com";
+const String CLIENT_ID = "";
 
 // the clientSecret found in Google's Developer Console under APIs & Auth > Credentials
-const String CLIENT_SECRET = "EOPADqOGekOpl5Jyo6YVIzH2";
+const String CLIENT_SECRET = "";
 
 // returned after running FinalizeOAuth
-const String REFRESH_TOKEN = "1/PwIoYj30nBvqI4P51Ytm_IrK87ozcqiPsRMvC6aSMFI";
+const String REFRESH_TOKEN = "";
 
 // the name of the spreadsheet in your Google Docs/Drive
 // that you you want to send data to
-const String SPREADSHEET_TITLE = "TestSheet";
+const String SPREADSHEET_TITLE = "";
 
-// the data you'd like to add to your spreadsheet, each cell value separated by a comma
-//const String ROW_DATA = "It, Worked!!!!!!, Third, Fourth, Fifth";
+
 
 WiFiClient client;
 
@@ -178,26 +174,5 @@ void add_line_to_sheet(String ROW_DATA)
     delay(30000);
 }
 
-/*
-  IMPORTANT NOTE: TembooAccount.h:
- 
-  TembooAccount.h is a file referenced by this sketch that contains your Temboo account information.
-  You'll need to edit the placeholder version of TembooAccount.h included with this example sketch,
-  by inserting your own Temboo account name and app key information. The contents of the file should
-  look like:
- 
-  #define TEMBOO_ACCOUNT "myTembooAccountName"  // your Temboo account name 
-  #define TEMBOO_APP_KEY_NAME "myFirstApp"  // your Temboo app name
-  #define TEMBOO_APP_KEY  "xxxxxxxxxxxxxx"  // your Temboo app key
- 
-  #define WIFI_SSID "myWiFiNetworkName"
-  #define WIFI_PASSWORD "myWiFiNetworkPassword"
- 
-  You can find your Temboo App Key information on the Temboo website under Account > Applications
- 
-  The same TembooAccount.h file settings can be used for all Temboo sketches.
- 
-  Keeping your account information in a separate file means you can share the main sketch file without worrying 
-  that you forgot to delete your credentials.
-*/
+
 

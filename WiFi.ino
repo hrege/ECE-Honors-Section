@@ -127,13 +127,7 @@ void initWiFi()
 }
 
 void add_line_to_sheet(String ROW_DATA)
-{
-    String one = "asdf";
-    String two;
-    two = one + "asdffff";
-    String three;
-    three = one + " " + 12;
-    
+{    
     Serial.println("Appending value to spreadsheet...");
 
     // we need a Process object to send a Choreo request to Temboo

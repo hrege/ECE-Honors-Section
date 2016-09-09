@@ -14,7 +14,7 @@
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <Temboo.h>
-#include "TembooAccount.h" // contains Temboo account information
+#include "ece110-120honors.h" // contains Temboo account information
                            // as described in the footer comment below
 
 

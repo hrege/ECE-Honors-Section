@@ -1,6 +1,6 @@
-#define TEMBOO_ACCOUNT ""  // your Temboo account name 
-#define TEMBOO_APP_KEY_NAME ""  // your Temboo app name
-#define TEMBOO_APP_KEY  ""  // your Temboo app key
+#define TEMBOO_ACCOUNT "ece110-120honors"  // your Temboo account name 
+#define TEMBOO_APP_KEY_NAME "myFirstApp"  // your Temboo app name
+#define TEMBOO_APP_KEY  "gqxTNOcCvVOO3vJd7Kj9MWL4qePNwA3E"  // your Temboo app key
 
 #define WIFI_SSID ""
 #define WIFI_PASSWORD ""

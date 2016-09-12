@@ -24,17 +24,17 @@
 // use #define statements to specify these values in a .h file.
 
 // the clientID found in Google's Developer Console under APIs & Auth > Credentials
-const String CLIENT_ID = "";
+const String CLIENT_ID = "92765469738-saglqlbo0pb3icv21b7dijoa33c4h96o.apps.googleusercontent.com";
 
 // the clientSecret found in Google's Developer Console under APIs & Auth > Credentials
-const String CLIENT_SECRET = "";
+const String CLIENT_SECRET = "32P4kIOMHug0XKwlMcB-f3aL";
 
 // returned after running FinalizeOAuth
-const String REFRESH_TOKEN = "";
+const String REFRESH_TOKEN = "1/FCVPF7KBKILsY1A2rSAmLfOVjeu_Oww4L0D8bTpll8w";
 
 // the name of the spreadsheet in your Google Docs/Drive
 // that you you want to send data to
-const String SPREADSHEET_TITLE = "";
+const String SPREADSHEET_TITLE = "ECE Honors";
 
 
 

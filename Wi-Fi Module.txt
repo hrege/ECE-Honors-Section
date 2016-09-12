@@ -1,0 +1,17 @@
+ECE Honors
+
+API Key: AIzaSyCGizQdwHUIQF4QEdkEcsXR4Y4C_9xYbw0
+
+Client ID: 92765469738-saglqlbo0pb3icv21b7dijoa33c4h96o.apps.googleusercontent.com
+
+Client Secret: 32P4kIOMHug0XKwlMcB-f3aL
+
+Callback ID: ece110-120honors/d66650cc-bd05-4800-acae-a4b4bcdbba68
+
+RefreshToken: 1/FCVPF7KBKILsY1A2rSAmLfOVjeu_Oww4L0D8bTpll8w
+
+Authorization URL: https://accounts.google.com/o/oauth2/auth?client_id=92765469738-saglqlbo0pb3icv21b7dijoa33c4h96o.apps.googleusercontent.com&response_type=code&redirect_uri=https://ece110-120honors.temboolive.com/callback/google&approval_prompt=force&access_type=offline&scope=https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F&state=d66650cc-bd05-4800-acae-a4b4bcdbba68
+
+Scope: https://spreadsheets.google.com/feeds/
+
+AccessToken: ya29.Ci9cAx2icsgjEsLN0FnCCwsEkhhSai8uOn542TUVpO0aZ5KrYvQgLIhfpnsWsmkg0w
